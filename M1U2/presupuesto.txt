@@ -1,1 +1,1 @@
-costo
+costo 150000
