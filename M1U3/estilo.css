@@ -1,5 +1,6 @@
 body{
-    background-color: lightpink;
+    /*background-color: lightpink;*/
+    background: linear-gradient(162deg,rgba(255,0,244,0.48) 0%, rgba(239,249,239,0.02) 80%);
 }
 
 h1{
@@ -25,6 +26,10 @@ ul{
 }
 
 img{
-    border-image: auto;
-    border:purple 3px solid;
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+    filter: drop-shadow(10px 10px 5px #b011a3);
+    -webkit-filter: drop-shadow(10px 10px 5px #b011a3);
+    -moz-filter: drop-shadow(10px 10px 5px #b011a3);
 }
