@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BUSCA MAYOR DE UN ARRAY DE NUMEROS</title>
+</head>
+<body>
+    <script>
+        var numeros = [1,10,31,5,800,98,54];
+        var mayor = numeros[0];
+
+        for(var i=0;i<numeros.length;i++) {
+            if (numeros[i]>mayor) {
+                mayor=numeros[i];
+            }
+        }
+        console.log('Para los numeros ingresados el numero mayor es ', +mayor)
+        document.write('Para los numeros ingresados el numero mayor es ', +mayor)
+    </script>
+</body>
+</html>

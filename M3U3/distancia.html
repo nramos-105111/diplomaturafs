@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRANSPORTE SEGUN DISTANCIA</title>
+</head>
+<body>
+    <script>
+        var distancia = prompt('INGRESE DISTANCIA A RECORRER:','');
+        var transporte = '';
+        if (distancia <=1000) {
+            transporte ='PIE';
+        } else if (distancia <= 10000) {
+            transporte='BICICLETA';
+        } else if (distancia <= 30000) {
+            transporte='COLECTIVO';
+        } else if (distancia <= 100000) {
+            transporte='AUTO';
+        } else {transporte='AVION';}
+
+        console.log('Para la distancia ingresada ', distancia , 'el medio de transporte es ', transporte)
+        document.write('Para la distancia ingresada ' ,distancia , 'el medio de transporte es ', transporte)
+
+    </script>
+</body>
+</html>
