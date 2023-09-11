@@ -1,0 +1,29 @@
+.contenedor {
+	width: 450px;
+	height: 450px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    flex-direction:row;
+}
+.cuadrado{
+	width: 150px;
+	height: 150px;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.c1 {
+	background: red;
+	color: white;
+}
+.c2 {
+	background: blue;
+	color: white;
+}
+.c3 {
+	background:green;
+	color: white;
+}

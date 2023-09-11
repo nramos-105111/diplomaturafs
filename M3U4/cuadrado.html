@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuadrado color</title>
+    <link rel="stylesheet" href="cuadrado.css"> 
+</head>
+<body>
+<div class="contenedor">
+    <div class="cuadrado c1" id="cuadrado1">1</div>
+    <div class="cuadrado c2" id="cuadrado2">2</div>
+    <div class="cuadrado c3" id="cuadrado3">3</div>
+</div>
+    <script>
+        const cuadrado1=document.getElementById("cuadrado1");
+        const cuadrado2=document.getElementById("cuadrado2");
+        const cuadrado3=document.getElementById("cuadrado3");
+
+        cuadrado1.addEventListener("click", () => {
+            document.body.style.backgroundColor = "red";
+        });
+
+        cuadrado2.addEventListener("click", () => {
+            document.body.style.backgroundColor = "blue";
+        });
+
+        cuadrado3.addEventListener("click", () => {
+            document.body.style.backgroundColor = "green";
+        });
+    </script>
+</body>
+</html>
