@@ -1,3 +1,5 @@
+import '../App.css'
+import '../Estilos/Shop.css'
 const Shop = (props)=>{
     return (
         <div class="contenedor-img">

@@ -1,0 +1,26 @@
+form{
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 4.5em 3em;
+    text-align: center;
+    margin-top: 3em;
+    display:grid;
+    gap: 1em;
+  }
+  
+  .form-group{
+  position: relative;
+  font-size: large;
+  }
+  
+  .form-control{
+    width: 80%;
+    font-size:larger;
+  }
+  
+  textarea {
+    resize:vertical;
+    overflow: auto;
+    vertical-align: top;
+  }

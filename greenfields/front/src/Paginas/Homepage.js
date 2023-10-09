@@ -1,8 +1,12 @@
+//import { useState } from 'react'
+import '../App.css'
+import '../Estilos/Homepage.css'
+import Contador from'../Componentes/Layout/Contador'
+
 const Homepage = (props)=>{
     return (
         <main>
-
-        
+    
         <div id="noe-slide">
             <ul class="slider">
                 <li id="slide1">
@@ -37,10 +41,11 @@ const Homepage = (props)=>{
                     <a href="#slide4">4</a>
                 </li>
             </ul>
-            
+            <Contador />
             </div>
             
             <div>
+             
             </div>
             </main>
     )

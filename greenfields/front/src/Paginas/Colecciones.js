@@ -1,3 +1,5 @@
+import '../App.css'
+import '../Estilos/Colecciones.css'
 const  Colecciones =(props)=>{
     return(
 <div class="coleccion-img">

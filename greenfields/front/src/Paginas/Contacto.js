@@ -1,3 +1,5 @@
+import '../App.css'
+import '../Estilos/Contacto.css'
 const Contacto = (props)=>{
     return (
         <form>
