@@ -6,10 +6,11 @@
     <title>Contador de caracteres</title>
 </head>
 <body>
-    <textarea id="Textarea1"></textarea>
-    <p>Caracteres restantes: <span id="contador">restantes</span></p>
+    <textarea id="Textarea1" oninput="Actualizar()"></textarea>
+    <p>Caracteres restantes: <span id="contador">{{$restantes}}</span></p>
 </body>
 <script>
+    function Actualizar(){
     const textarea = document.getElementById('Textarea1');
     const contador = document.getElementById('contador');
     const caracteres =250;
@@ -21,5 +22,6 @@
     } else {
         contador.textContent = 0;
     }
+}
 </script>
 </html>

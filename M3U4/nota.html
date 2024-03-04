@@ -46,7 +46,14 @@ var aprobado = alumnos.filter(function(aprove){
     return aprove.nota >= 7;
 });
     
-    console.log(aprobado);
+var listaAprobados = document.createElement('ul');
+        aprobado.forEach(function(estudiante) {
+            var item = document.createElement('li');
+            item.textContent = estudiante.nombre + '- Nota: ' + estudiante.nota;
+            listaAprobados.appendChild(item);
+        });
+
+        document.body.appendChild(listaAprobados);
     </script>
 </body>
 </html>
