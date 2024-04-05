@@ -1,0 +1,13 @@
+<h1>{{title}}</h1>
+{{#if aprobado}}
+<p>Bienvenido {{nombre}} 
+    <a href="/salir">Salir</a></p>
+{{/if}}
+{{#unless aprobado}}
+<p>No estas logueado</p>
+<form action="/ingresar" method="post">
+<input type="text" name="edad" placeholder="Ingrese edad">
+<input type="text" name="nombre" placeholder="Ingrese nombre">
+<button>Log in</button>
+</form>
+{{/unless}}
